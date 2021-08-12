@@ -1,0 +1,430 @@
+
+body {
+  background: rgb(2, 2, 2);
+}
+
+.App {
+  text-align: center;
+  display: flex;  
+  overflow: auto;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  color: rgba(44, 43, 43, 0.761);
+}
+
+.ability-container {
+  display: inline-block;  
+  background: white;
+  width: 110px;
+  margin: 2px 5px;
+  border-radius: 20px 20px 20px 20px;
+  text-align: center;
+  text-transform: capitalize;  
+}
+
+.arrow-back {
+  position: absolute;
+  left: 40px;
+  top: 40px;
+  background: blanchedalmond;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+}
+
+.btn-search {
+  background-color: cadetblue;
+  margin: 0 30px 0 5px;  
+}
+
+.btn-danger {
+  background-color :black;
+  margin: 0 20px;
+  border: none;
+}
+
+.btn-login {
+  width: 50%;
+  background: rgb(26, 202, 20);
+  transition: 0.1s;
+  border: none;
+}
+
+.btn-login:hover {
+  width: 50%;
+  background: rgb(31, 82, 194);
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+
+.card-body {
+  display: flex;
+  margin-left: 5px;
+  border-radius:7px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+  
+
+
+.cards-container {
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;  
+  margin: auto; 
+}
+
+.card-container {
+  background: #a69bca;
+  margin: 1rem;
+  margin-bottom: 50px;
+  width: 250px;
+  height: 230px;
+  border-radius: 10% 10% 10% 10%;
+  color: rgb(26, 24, 24);
+  text-decoration: none;
+  transition: 0.2s;
+  box-shadow: -7px 7px 5px 0px rgba(13, 13, 13, 0.304);
+}
+
+.card-container:hover {
+  background: #856c66;
+  margin: 1rem; 
+  border-radius: 10%;
+  color: rgb(26, 24, 24);
+  text-decoration: none;
+  transform: scale(1.04) translateY(-5px);
+}
+
+
+.card-head {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+}
+
+.card-info {
+  text-align: left;
+  line-height: 6px;
+  font-size: 1rem;
+}
+
+.card-types {
+  display: flex;
+  flex-direction: column;  
+}
+
+.col-3 {  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;  
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  max-width: 40vw;
+  
+}
+
+.char-container {
+  height: 50%; 
+  overflow: hidden;
+ 
+}
+
+.config-btn {  
+  position: fixed;
+  right: 20px;
+  top: 7px;
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+  border: 6px solid rgb(89, 85, 84);
+  cursor: pointer;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.container-pagination {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.detail-center {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.form-container {
+  margin-left: 20px;
+}
+
+.input {
+  border-radius: 7px;
+  padding: 4px;
+  margin: 0 40px 0 0;
+}
+
+.input-container {
+  border: 1px solid rgba(219, 210, 210, 0.297);
+  padding: 50px;
+  border-radius: 10px;
+  background: rgb(82, 210, 241);
+  box-shadow: -7px 7px 5px 0px rgba(13, 13, 13, 0.304);
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+}
+
+.input-login {
+  margin-bottom: 15px;
+  border-radius: 5px;
+  padding: 5px;
+  border: none;
+  color: black;
+}
+
+.left-details-container {
+  display: flex;
+  justify-content: center;
+}
+
+.left-details-container> .d-flex {
+  margin: 10px 10px;
+  background-color: white;
+  border-radius: 7px;
+
+}
+
+.left-details-container>.d-flex span {
+  font-size: 1rem;
+}
+
+.menu-container {
+  height: 500px;
+  width: 300px;
+}
+
+.Hi {
+  margin-left: 5px;
+}
+
+.moves-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;  
+  min-height: 100%;
+  background: rgba(0, 0, 0, 0.153); 
+  overflow: auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  min-width: 100vw;
+  background:  #0c3a9e;
+  height:140px ;
+}
+
+.selected-page {
+  background: #6d6685;
+  border-radius: 7px;
+}
+
+.pagination {
+  display: flex;
+}
+
+button{
+  border-radius: 7px;
+}
+
+.pokemon-card-image {
+  width: 150px;
+  height: 150px;  
+}
+
+.pokemon-card-image-container {  
+  position: relative;
+  right: 0;
+  top: -50px; 
+
+}
+
+.pokemon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  width: 100%;      
+  
+}
+
+.pokemon-chars {  
+  width:  600px;
+  height: 90%;
+  align-items: flex-start;
+}
+
+.pokemon-detail {
+  flex-direction: row;
+   color:black;
+}
+
+.pokemon-img {
+  width: 200px;
+  height: 220px;
+  
+}
+
+.pokemon-title-1 {
+  font-size: 3.2rem;
+  color: black;
+  
+}
+
+.pokemon-title-2 {  
+  font-size: 1.4rem;   
+  margin-top: -60px;
+  color: rgb(26, 24, 24);
+  text-decoration: underline;
+}
+
+.pokemon-nav {
+  display: flex;    
+  justify-content: center;
+  align-items: center;
+  width:  600px;  
+  border-radius: 10px 10px 0 0;
+  background: rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+
+}
+
+.pokemon-nav-li   {
+  text-decoration: none;
+  transform: scale(1.04) translateY(-5px);
+  background-color: white;
+  border:solid 1px;
+  border-radius: 7px;
+  display: flex;    
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin: 10px 20px;  
+  color: rgb(26, 24, 24);
+  font-size: 1.3rem;  
+  width: 100%;
+  height: 100%;
+}
+
+.pokemon-nav-li:hover {
+  transform: scale(0.9); 
+  color: rgb(26, 24, 24); 
+}
+.pokedex {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.pokedex-id {
+  margin-top: 40px;
+  font-size: 1.2rem;
+}
+
+.pokemon-logo {
+  width: 500px;
+  position: relative;
+  top: -50px;
+}
+
+.pokemon-logo-pokedex {
+  width: 350px;
+  margin: 20px 0 40px 0;
+  
+}
+
+.select-numbers-pokemons {
+  margin-left: 30px;
+  border-radius: 7px;
+  background-color: white;
+}
+select {
+  border-radius: 7px;
+  background-color: white;
+  margin-right: 10px;
+}
+
+.type-container {
+  display: inline-block;  
+  background: white;
+  height: 25px;
+  width: 70px;
+  margin: 5px 0;
+  border-radius: 7px;
+  text-align: center;
+  text-transform: capitalize;  
+}
+
+.move-container {
+  display: inline-block;  
+  background: white;
+  width: 25%;
+  margin: 5px 0;
+  border-radius: 20px 20px 20px 20px;
+  text-align: center;
+  text-transform: capitalize; 
+}
+
+.loader {
+  width: 70px;
+  animation: rotation 2s infinite linear;  
+}
+
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.login-container {
+  margin: auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+
+
+
